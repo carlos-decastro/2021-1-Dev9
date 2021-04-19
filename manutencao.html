@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
+<!--(CARLOS) Criada a pagina de manutenção-->
+
+<!--(CARLOS) Criado o Style da pagina direto na mesma para não causar conflito com o style das demais paginas-->
 <style>
+
+    /*(CARLOS) Utilizada a Class manutenção_box para centralizar a imagem */
     .manutencao_box {
         width: 100vw;
         height: 100vh;
@@ -11,13 +16,14 @@
         align-items: center
     }
 
+    /*(CARLOS) Utilizada a Class manutenção_box img para ajustar a proporção da imagem */
     .manutencao_box img {
         max-width: 500px;
         max-height: 500px;
         width: auto;
         height: auto;
     }
-
+    /*(CARLOS) Alterada a cor de background */
     body {
         margin: 0px;
         background-color: rgb(41, 40, 39);
@@ -27,6 +33,7 @@
 
 <head>
     <meta charset="utf-8" />
+    <!--(CARLOS) Colocado o HREF do favicon da pagina-->
     <link href="assets/img/favicon.png" rel="icon">
     
     <title>Loucos por Cinema | Manutenção</title>
@@ -34,6 +41,7 @@
 
 <body>
 
+    <!--(CARLOS) Criada a DIV com CLASS MANUTENCAO_BOX e inserida a imagem com HREF de retorno ao index-->
     <div class="manutencao_box">
         <a href="index.html">
             <img src="assets/img/manutencao.png" alt="manutenção">
